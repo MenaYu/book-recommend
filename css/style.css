@@ -1,0 +1,149 @@
+/* จัดให้อยู่แนวเดียวกันและมี hover effect */
+                .navbar-nav .nav-link {
+                        display: flex;
+                        align-items: center;
+                        transition: background-color 0.3s ease;
+                        /* ทำให้เปลี่ยนสีเนียน */
+                        padding: 0.5rem 1rem;
+                        /* เพิ่มพื้นที่ให้คลิกง่าย */
+                        border-radius: 5px;
+                        /* มุมโค้งนิดหน่อย */
+                }
+
+                .navbar-nav .nav-link:hover {
+                        background-color: #e6d5d5;
+                        /* สีพื้นหลังเมื่อเอาเม้าส์ชี้ */
+                }
+
+.booker{
+        font-weight: bold;     /* ตัวหนา */
+        color: rgb(95, 26, 26);           /* สีน้ำเงิน */
+        
+     }
+
+.menu{
+      border: 4px solid rgb(165, 142, 38);             /* กรอบสีทอง */
+      border-radius: 10px;                /* มุมโค้งเล็กน้อย เพิ่มความหรู */
+      
+      }
+
+.bg-0 {
+    background-image: url("../images/mythical-video-game-inspired-landscape-with-human.jpg");
+    background-size: cover;        /* ปรับขนาดเต็มกล่องอัตโนมัติ */
+    background-position: center;   /* จัดตำแหน่งให้อยู่ตรงกลาง */
+    background-repeat: no-repeat;  /* ไม่ให้ภาพซ้ำ */
+
+    
+}
+
+.bg-1{
+    color: #522323;
+    --g1: #feffcc;
+    --g2: #e0c1afde;
+    background: radial-gradient(circle at center, var(--g1) 0%, var(--g2) 70%);
+   
+    
+  }
+
+
+
+
+.shadow-right {
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    color: rgb(95, 26, 26);
+}
+
+/* ฟ้อนต์ */
+.charm-bold {
+  font-family: 'Charm', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;      /* ตัวหนา */
+  font-style: normal;
+  line-height: 1.2;
+  
+}
+
+.charm-center {
+      font-family: 'Charm', cursive;
+      font-weight: 700;      /* ตัวหนา */
+      font-size: 25px;     /* ตัวใหญ่ */
+      text-align: center;    /* จัดกลาง */
+      margin-top: 50px;      /* เว้นขอบบนให้สวย */
+      color: rgb(95, 26, 26);
+    }
+
+.itim-bold {
+  font-family: 'Itim', cursive;
+  font-weight: 700; /* ตัวหนา */
+  font-style: normal;
+
+}
+
+.itim-italic {
+  font-family: 'Itim', cursive;
+  font-weight: 700; /* ตัวหนา */
+  font-size: 20px;
+  font-style: italic;
+  color: rgb(95, 26, 26);
+}
+
+.itim {
+  font-family: 'Itim', cursive;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease; /* ทำให้การเปลี่ยนสีเนียน */
+    padding: 0.5rem 1rem; /* ปรับขนาดให้คลิกง่าย */
+    border-radius: 5px; /* ทำให้มุมโค้งนิดหน่อย สวยงาม */
+}
+/* จบฟ้อนต์ */
+
+/* โค้ดส่วนนำ */
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+}
+ 
+.text-01 {
+  max-width: 450px;
+  
+}
+.text-01 h1 {
+ font-size: 2rem;
+ line-height: 1.4;
+ margin-bottom: 20px;
+}
+
+.size {
+ font-size: 30p;
+
+}
+
+/* ส่วนรูป */
+.shadow-image {
+    width: 250px;
+    height: 352px;
+    /* เงาเยื้องไปทางขวา */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    /* ทำให้ขอบไม่เบี้ยว */
+    display: block;
+}
+
+.dragon {
+    height: 100px;
+    width: auto; /* ปรับอัตราส่วนตามความสูง */
+    display: block;
+    margin: 0 auto; /* จัดให้อยู่กลางหน้า */
+    
+}
+
+/* จบนำ */
