@@ -27,13 +27,9 @@
       
       }
 
-.bg-0 {
-    background-image: url("../images/mythical-video-game-inspired-landscape-with-human.jpg");
-    background-size: cover;        /* ปรับขนาดเต็มกล่องอัตโนมัติ */
-    background-position: center;   /* จัดตำแหน่งให้อยู่ตรงกลาง */
-    background-repeat: no-repeat;  /* ไม่ให้ภาพซ้ำ */
-
-    
+.bg-white {
+    background-color: aliceblue;
+  
 }
 
 .bg-1{
